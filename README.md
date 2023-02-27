@@ -1,6 +1,8 @@
 # rofi-symbols
 Small rofi script for typing/copying utf8 symbols.
 
+![](https://github.com/IvyTheIV/rofi-symbols/blob/master/usage.gif)
+
 ## Features
 
 + Type mode - types the characters.
@@ -39,5 +41,5 @@ rofi -show sym sym_c -modes "sym:rofi-symbols.sh","sym_c:rofi-symbols.sh copy"
 ## Custom symbols
 
 You can put different symbols (or even strings of characters - as long as it doesn't contain spaces).
-To do that, create a file in `~/.config/rofi/rofi-symbols/symbols/`, ending with `.symbols`.
+To do that, create a file in `~/.config/rofi/rofi-symbols/symbols/` ending with `.symbols`. Verbose, indeed.
 Check the existing files for reference on the formatting.
